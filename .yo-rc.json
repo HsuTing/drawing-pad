@@ -1,0 +1,34 @@
+{
+  "generator-cat": {
+    "promptValues": {
+      "authorName": "HsuTing",
+      "authorEmail": "hsuting0106@gmail.com",
+      "authorUrl": "http://hsuting.com",
+      "website": true,
+      "chooseType": "docs",
+      "graphql": false,
+      "plugins": [
+        "time tracker"
+      ],
+      "subject": "Drawing pad",
+      "otherSettings": []
+    },
+    "plugins": [
+      "time tracker",
+      "docs",
+      "react"
+    ],
+    "alias": {
+      "public": "public",
+      "components": "components",
+      "componentsShare": "components/share",
+      "utils": "utils"
+    },
+    "template": {
+      "subject": "Drawing pad",
+      "url": "https://hsuting.github.io/drawing-pad/",
+      "otherSettings": []
+    },
+    "cat": true
+  }
+}
