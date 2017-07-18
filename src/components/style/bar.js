@@ -9,9 +9,7 @@ export default {
     top: '0px',
     left: '0px',
     width: 'calc(100% - 10px * 2)',
-    height: '50px',
     padding: '0px 10px',
-    lineHeight: '50px',
     color: white,
     background: black,
     boxShadow: `${black} 0px 0px 20px`

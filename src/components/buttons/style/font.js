@@ -20,8 +20,8 @@ export default {
     borderRadius: '5px'
   },
 
-  icon: {
-    margin: '0px 4px',
+  icon: type => ({
+    margin: type === 'add' ? '0px 0px 0px 2px' : '0px 2px 0px 0px',
     userSelect: 'none'
-  }
+  })
 };

@@ -38,7 +38,7 @@ export default class Font extends React.Component {
 
     return (
       <div style={[this.props.style, style.root]}>
-        <SubIcon style={style.icon}
+        <SubIcon style={style.icon('sub')}
           onClick={this.sub}
         />
 
@@ -56,7 +56,7 @@ export default class Font extends React.Component {
           maxLength={2}
         />
 
-        <AddIcon style={style.icon}
+        <AddIcon style={style.icon('add')}
           onClick={this.add}
         />
       </div>

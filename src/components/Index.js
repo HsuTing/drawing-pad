@@ -27,8 +27,8 @@ class Index extends React.Component {
           <Normalize />
 
           <Bar>
-            <FontButton />
             <ColorButton />
+            <FontButton />
             <ClearButton />
             <ImageButton />
             <SaveButton />
