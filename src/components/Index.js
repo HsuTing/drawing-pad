@@ -3,19 +3,47 @@
 import React from 'react';
 import radium from 'radium';
 import Wrapper from 'cat-components/lib/wrapper';
+import Canvas, {CanvasDraw} from 'cat-components/lib/canvas';
 
 import Normalize from 'componentsShare/Normalize';
+
+import Bar from './Bar';
+import FontButton from './buttons/Font';
+import ColorButton from './buttons/Color';
+import ClearButton from './buttons/Clear';
+import ImageButton from './buttons/Image';
+import SaveButton from './buttons/Save';
+import style from './style/index';
 
 @radium
 class Index extends React.Component {
   render() {
     return (
-      <div>
-        <Normalize />
+      <CanvasDraw>
+        <Canvas style={style.pad}
+          rootStyle={style.rootStyle}
+          setting={this.setting}
+        >
+          <Normalize />
 
-        This is Index!
-      </div>
+          <Bar>
+            <FontButton />
+            <ColorButton />
+            <ClearButton />
+            <ImageButton />
+            <SaveButton />
+          </Bar>
+        </Canvas>
+      </CanvasDraw>
     );
+  }
+
+  setting({canvas, ctx}) {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
   }
 }
 

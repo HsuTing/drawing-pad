@@ -1,5 +1,5 @@
 # Drawing-pad
-A drawing pad
+[A drawing pad](https://hsuting.github.io/drawing-pad/).
 
 ## Getting Started
 Install packages using [yarn](https://yarnpkg.com/) (we assume you have pre-installed [npm](https://www.npmjs.com/) and [node.js](https://nodejs.org/)).

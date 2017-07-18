@@ -1,0 +1,9 @@
+{
+  "timerColor": "gray",
+  "format": "MMMM Do YYYY, HH:mm:ss",
+  "tags": {
+    "normal": "bgGreen",
+    "component": "bgCyan",
+    "bug": "bgRed"
+  }
+}

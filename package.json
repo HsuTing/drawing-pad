@@ -10,7 +10,7 @@
     "build": "yarn babel && static static.config.js",
     "prod": "export NODE_ENV=production && yarn babel && static static.config.js && yarn webpack",
     "watch": "concurrently -c green \"yarn lint:watch\" \"yarn babel:watch\" \"yarn webpack-server\"",
-    "postinstall": "rm -rf ./node_modules/radium/.babelrc"
+    "postinstall": "rm -rf ./node_modules/radium/.babelrc ./node_modules/react-color/.babelrc ./node_modules/reactcss/.babelrc"
   },
   "name": "drawing-pad",
   "version": "0.1.0",
@@ -60,12 +60,16 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
-    "cat-components": "^1.5.4",
+    "cat-components": "beta",
+    "file-saver": "^1.3.3",
     "nunjucks": "^3.0.1",
     "prop-types": "^15.5.10",
     "radium": "^0.19.1",
     "radium-normalize": "^2.0.5",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-color": "^2.13.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "validator": "^8.0.0"
   }
 }
