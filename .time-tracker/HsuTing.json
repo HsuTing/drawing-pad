@@ -17,6 +17,18 @@
       "tag": "component",
       "startTime": "2017-07-18T12:38:26.340Z",
       "endTime": "2017-07-18T14:56:32.930Z"
+    },
+    "de8301d5-1eec-46d5-b847-e7ecdfed6855": {
+      "note": "Add custom cursor icon",
+      "tag": "normal",
+      "startTime": "2017-07-18T15:47:35.090Z",
+      "endTime": "2017-07-18T16:00:39.097Z"
+    },
+    "2d0b62a5-9731-4f80-8b6d-342d3c18c4dc": {
+      "note": "Add earser",
+      "tag": "component",
+      "startTime": "2017-07-18T16:04:35.483Z",
+      "endTime": "2017-07-18T16:36:39.477Z"
     }
   }
 }

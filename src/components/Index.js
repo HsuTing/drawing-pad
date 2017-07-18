@@ -8,8 +8,9 @@ import Canvas, {CanvasDraw} from 'cat-components/lib/canvas';
 import Normalize from 'componentsShare/Normalize';
 
 import Bar from './Bar';
-import FontButton from './buttons/Font';
 import ColorButton from './buttons/Color';
+import FontButton from './buttons/Font';
+import EraserButton from './buttons/Eraser';
 import ClearButton from './buttons/Clear';
 import ImageButton from './buttons/Image';
 import SaveButton from './buttons/Save';
@@ -23,12 +24,14 @@ class Index extends React.Component {
         <Canvas style={style.pad}
           rootStyle={style.rootStyle}
           setting={this.setting}
+          checkSupport={this.checkSupport}
         >
           <Normalize />
 
           <Bar>
             <ColorButton />
             <FontButton />
+            <EraserButton />
             <ClearButton />
             <ImageButton />
             <SaveButton />
@@ -36,6 +39,10 @@ class Index extends React.Component {
         </Canvas>
       </CanvasDraw>
     );
+  }
+
+  checkSupport() {
+    alert('Not support.');
   }
 
   setting({canvas, ctx}) {

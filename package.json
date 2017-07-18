@@ -9,7 +9,7 @@
     "time-tracker": "time-tracker",
     "build": "yarn babel && static static.config.js",
     "prod": "export NODE_ENV=production && yarn babel && static static.config.js && yarn webpack",
-    "watch": "concurrently -c green \"yarn lint:watch\" \"yarn babel:watch\" \"yarn webpack-server\"",
+    "watch": "concurrently -c green \"yarn lint:watch\" \"yarn webpack-server\"",
     "postinstall": "rm -rf ./node_modules/radium/.babelrc ./node_modules/react-color/.babelrc ./node_modules/reactcss/.babelrc"
   },
   "name": "drawing-pad",

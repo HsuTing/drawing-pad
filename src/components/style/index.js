@@ -12,6 +12,7 @@ export default {
   pad: {
     width: '100%',
     height: '100%',
-    background: white
+    background: white,
+    cursor: 'default'
   }
 };

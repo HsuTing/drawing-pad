@@ -1191,8 +1191,8 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
 cat-components@beta:
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/cat-components/-/cat-components-1.5.6.tgz#95bd18b87eea19f43a728dba897ea90faf431d6e"
+  version "1.5.6-beta-1"
+  resolved "https://registry.yarnpkg.com/cat-components/-/cat-components-1.5.6-beta-1.tgz#23821619f6b0dc862f063083fd482dbd8281e5bb"
   dependencies:
     babel-polyfill "^6.23.0"
     chalk "^2.0.1"
