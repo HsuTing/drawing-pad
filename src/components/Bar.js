@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import radium from 'radium';
 
-import style from './style/bar';
+import * as style from './style/bar';
 
 @radium
 export default class Bar extends React.Component {

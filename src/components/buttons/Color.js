@@ -7,7 +7,7 @@ import {ChromePicker} from 'react-color';
 import Menu from 'cat-components/lib/menu';
 import black from 'cat-components/lib/color/black';
 
-import style from './style/color';
+import * as style from './style/color';
 
 @radium
 export default class Color extends React.Component {

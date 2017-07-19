@@ -14,7 +14,7 @@ import EraserButton from './buttons/Eraser';
 import ClearButton from './buttons/Clear';
 import ImageButton from './buttons/Image';
 import SaveButton from './buttons/Save';
-import style from './style/index';
+import * as style from './style/index';
 
 @radium
 class Index extends React.Component {

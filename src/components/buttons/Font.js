@@ -7,7 +7,7 @@ import AddIcon from 'react-icons/lib/md/add';
 import SubIcon from 'react-icons/lib/md/remove';
 import Input from 'cat-components/lib/input';
 
-import style from './style/font';
+import * as style from './style/font';
 
 @radium
 export default class Font extends React.Component {
